@@ -27,11 +27,11 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: Colors.blueAccent,
         appBar: AppBar(
           backgroundColor: Colors.blue[900],
-          title: Text("Ask Me Anything"),
+          title: const Text("Ask Me Anything"),
           centerTitle: true,
         ),
         body: Container(
-          padding: EdgeInsets.symmetric(horizontal: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 10),
           child: Center(
             child: TextButton(
               onPressed: (){
